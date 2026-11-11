@@ -61,7 +61,7 @@ ls -aR
 ### a) Lệnh lọc các dòng status=500
 
 ```shell
-rep "status=500" ./logs/entry.log > logs/loi_500.txt
+grep "status=500" ./logs/entry.log > logs/loi_500.txt
 
 ```
 
